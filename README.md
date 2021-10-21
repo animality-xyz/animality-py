@@ -50,7 +50,7 @@ Get a random animal.
 $ animality random
 ```
 
-Get multiple animals. (up to 15)
+Get multiple animals.
 ```bash
 $ animality cat dog panda bunny
 ```
