@@ -11,11 +11,11 @@ if not args or "about" in args:
 
 website: https://animality.xyz
 discord: https://discord.gg/ESPMP7BEeJ
-github: https://github.com/animal-api/animality-py
+github: https://github.com/animality-xyz/animality-py
 supported animals: {len(animals)}
 
-API made by Hamburger#0001.
-CLI made by null#8626.
+API made by https://github.com/VeryHamburger.
+CLI made by https://github.com/vierofernando.
 
 run "animality help" to see the usage.
 """)
@@ -93,7 +93,7 @@ elif len(args) == 1:
     get_event_loop().run_until_complete(fetch(args[0]))
 
 if len(args) > 15:
-    halo.fail("error: you can only input up to 15 animals at a time.")
+    halo.fail("error: you can only input up to 16 animals at a time.")
     exit(1)
 
 for animal in args:
