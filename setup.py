@@ -6,7 +6,7 @@ setup(
   packages=['animality'],
   version=__version__,
   license='MIT',
-  description='A python API wrapper for https://animality.xyz',
+  description='A python API wrapper for https://animality.xyz/',
   long_description=open('README.md', 'r', encoding='utf-8').read(),
   long_description_content_type='text/markdown',
   author='vierofernando',
@@ -18,7 +18,7 @@ setup(
   author_email='vierofernando9@gmail.com',
   url='https://github.com/animality-xyz/animality-py',
   download_url=f'https://github.com/animality-xyz/animality-py/archive/{__version__}.tar.gz',
-  keywords=['Animals', 'API', 'Hamburger', 'Pats', 'Headpats', 'API Wrapper'],
+  keywords=['animal', 'api', 'animality', 'animality-api'],
   install_requires=[
     'aiohttp',
     'halo'
