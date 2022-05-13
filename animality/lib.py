@@ -7,7 +7,7 @@ version = '0.1.4'
 animals = [
     "cat", "dog", "bird", "panda",
     "redpanda", "koala", "fox", "whale",
-    "kangaroo", "bunny", "lion", "bear",
+    "dolphin", "kangaroo", "bunny", "lion", "bear",
     "frog", "duck", "penguin", "axolotl"
 ]
 
