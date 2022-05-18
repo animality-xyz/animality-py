@@ -8,7 +8,7 @@ animals = [
     "cat", "dog", "bird", "panda",
     "redpanda", "koala", "fox", "whale",
     "dolphin", "kangaroo", "bunny", "lion", "bear",
-    "frog", "duck", "penguin", "axolotl"
+    "frog", "duck", "penguin", "axolotl", "capybara"
 ]
 
 get_animal_name = compile('/img/([a-z]+)/').findall
