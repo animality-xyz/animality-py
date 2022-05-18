@@ -93,7 +93,7 @@ elif len(args) == 1:
     get_event_loop().run_until_complete(fetch(args[0]))
 
 if len(args) > 15:
-    halo.fail("error: you can only input up to 17 animals at a time.")
+    halo.fail("error: you can only input up to 18 animals at a time.")
     exit(1)
 
 for animal in args:
